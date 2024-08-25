@@ -5,18 +5,14 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <link rel='stylesheet' href='styles.css'>
         <script src='script.js' defer></script>
-        <title>ST test form</title>
+        <title>ST test greeting</title>
     </head>
     <body>
         <header>
-            <h1>Here is the test form.</h1>
+            <h1>Here is the test greeting.</h1>
         </header>
         <main>
-            <form action='/' method="POST">
-                <label for='word'>Word:</label>
-                <input type='text' id='word' name='word'>
-                <input type='submit'>
-            </form>
+            <h2>Welcome to the site, {{word}}!</h2>
         </main>
     </body>
 </html>
